@@ -115,16 +115,14 @@ terraform-aws-iac/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
-├── environments/
-│   └── dev/
-│       ├── main.tf
-│       ├── variables.tf
-│       ├── outputs.tf
-│       ├── providers.tf
-│       ├── versions.tf
-│       └── terraform.tfvars.example
-└── interview_prep/
-    └── questions.md
+└── environments/
+    └── dev/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+        ├── providers.tf
+        ├── versions.tf
+        └── terraform.tfvars.example
 ```
 
 ---

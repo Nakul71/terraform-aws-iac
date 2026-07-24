@@ -116,7 +116,7 @@ cat <<'EOF' > /usr/share/nginx/html/index.html
 
         <div class="badge-container">
             <div class="badge badge-main">IBM Internship Project — Group 4</div>
-            <div class="badge badge-sub">Lead Engineer: Nakul Yadav</div>
+            <div class="badge badge-sub">Infrastructure as Code (IaC)</div>
             <div class="badge badge-tier">AWS Region: ap-south-1 (Mumbai)</div>
         </div>
 

@@ -58,7 +58,7 @@ cat <<'EOF' > /usr/share/nginx/html/index.html
     <div class="card">
         <h1>🚀 Infrastructure Deployed via Terraform</h1>
         <p>This web server was automatically provisioned using <strong>Infrastructure as Code (IaC)</strong> on Amazon Web Services (AWS).</p>
-        <div class="badge">IBM Internship Project — Nakul Yadav</div>
+        <div class="badge">IBM Internship Project — Group 4 (Nakul Yadav)</div>
         <div class="footer">AWS EC2 | Nginx | Terraform Modular Architecture</div>
     </div>
 </body>

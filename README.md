@@ -3,9 +3,9 @@
 [![Terraform](https://img.shields.io/badge/Terraform-v1.15.8-7B42BC?logo=terraform)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-Free%20Tier-FF9900?logo=amazon-aws)](https://aws.amazon.com/free/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![IBM Internship](https://img.shields.io/badge/IBM-Internship%20Project-0530AD?logo=ibm)](https://www.ibm.com/)
+[![IBM Internship](https://img.shields.io/badge/IBM-Group%204%20Internship%20Project-0530AD?logo=ibm)](https://www.ibm.com/)
 
-> **IBM Internship Project** — A production-inspired Infrastructure as Code solution provisioning AWS infrastructure through reusable, modular, version-controlled Terraform code.
+> **IBM Internship Project (Group 4)** — A production-inspired Infrastructure as Code solution provisioning AWS infrastructure through reusable, modular, version-controlled Terraform code.
 
 ---
 
@@ -208,7 +208,7 @@ After `terraform apply`, you will see:
 
 ## Author
 
-**Nakul Yadav** — IBM Internship 2026
+**Nakul Yadav** — Group 4 | IBM Internship 2026
 
 ---
 

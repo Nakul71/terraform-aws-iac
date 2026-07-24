@@ -1,6 +1,7 @@
 # 🚀 IBM INTERNSHIP FINAL PROJECT REPORT
 
 **Title:** Infrastructure as Code (IaC) using Terraform on AWS  
+**Group Number:** Group 4  
 **Author:** Nakul Yadav  
 **Organization:** IBM Internship Program  
 **Domain:** DevOps & Cloud Architecture  
@@ -11,7 +12,7 @@
 
 ## 📜 CERTIFICATE OF COMPLETION
 
-This is to certify that **Nakul Yadav** has successfully designed, developed, and deployed a production-grade **Infrastructure as Code (IaC)** solution using **Terraform** on **Amazon Web Services (AWS)** as part of the IBM Internship Program. The project demonstrates advanced competencies in cloud networking, compute automation, object storage security, and modular infrastructure software engineering.
+This is to certify that **Nakul Yadav (Group 4)** has successfully designed, developed, and deployed a production-grade **Infrastructure as Code (IaC)** solution using **Terraform** on **Amazon Web Services (AWS)** as part of the IBM Internship Program. The project demonstrates advanced competencies in cloud networking, compute automation, object storage security, and modular infrastructure software engineering.
 
 ---
 

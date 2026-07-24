@@ -1,6 +1,7 @@
 # 📊 Slide Deck: Infrastructure as Code (IaC) using Terraform on AWS
 
 **Project Title:** Infrastructure as Code (IaC) using Terraform on AWS  
+**Group Number:** Group 4  
 **Presenter:** Nakul Yadav  
 **Program:** IBM Internship 2026  
 **Repository:** [github.com/Nakul71/terraform-aws-iac](https://github.com/Nakul71/terraform-aws-iac)  
@@ -12,7 +13,8 @@
 ### Infrastructure as Code (IaC) using Terraform on AWS
 *A Modular, Production-Inspired AWS Infrastructure Architecture*
 
-- **Author:** Nakul Yadav
+- **Group Number:** Group 4
+- **Presenter:** Nakul Yadav
 - **Program:** IBM Internship Submission
 - **Stack:** Terraform | AWS Free Tier | Nginx | Git
 

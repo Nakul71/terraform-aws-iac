@@ -18,48 +18,126 @@ cat <<'EOF' > /usr/share/nginx/html/index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IBM Internship — Terraform AWS IaC</title>
+    <title>IBM Internship — Group 4 | Terraform AWS IaC</title>
     <style>
+        * { box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background: linear-gradient(135deg, #0b132b, #1c2541, #3a506b);
             color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px;
         }
         .card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            text-align: center;
-            max-width: 600px;
-        }
-        h1 { color: #00d2ff; margin-bottom: 10px; }
-        p { font-size: 1.1rem; line-height: 1.6; }
-        .badge {
-            display: inline-block;
-            background: #00d2ff;
-            color: #0f2027;
-            padding: 6px 16px;
+            background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border-radius: 20px;
-            font-weight: bold;
-            margin-top: 15px;
+            padding: 40px;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            text-align: center;
+            max-width: 750px;
+            width: 100%;
         }
-        .footer { margin-top: 25px; font-size: 0.85rem; color: #a0aec0; }
+        .icon { font-size: 3.2rem; margin-bottom: 10px; }
+        h1 {
+            color: #48cae4;
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 1.15rem;
+            line-height: 1.6;
+            color: #e0e1dd;
+            margin-bottom: 25px;
+        }
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .badge {
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .badge-main { background: #0077b6; color: #ffffff; }
+        .badge-sub { background: #48cae4; color: #0b132b; }
+        .badge-tier { background: rgba(255, 255, 255, 0.15); color: #90e0ef; border: 1px solid rgba(255, 255, 255, 0.2); }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .grid-item {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 18px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .grid-item h3 {
+            margin: 0 0 8px 0;
+            font-size: 1rem;
+            color: #90e0ef;
+        }
+        .grid-item p {
+            margin: 0;
+            font-size: 0.88rem;
+            color: #caf0f8;
+            line-height: 1.4;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #8d99ae;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>🚀 Infrastructure Deployed via Terraform</h1>
-        <p>This web server was automatically provisioned using <strong>Infrastructure as Code (IaC)</strong> on Amazon Web Services (AWS).</p>
-        <div class="badge">IBM Internship Project — Group 4 (Nakul Yadav)</div>
-        <div class="footer">AWS EC2 | Nginx | Terraform Modular Architecture</div>
+        <div class="icon">🚀</div>
+        <h1>Infrastructure Deployed via Terraform</h1>
+        <p class="subtitle">This production-inspired web application environment was fully automated & provisioned using <strong>Infrastructure as Code (IaC)</strong> on <strong>Amazon Web Services (AWS)</strong>.</p>
+
+        <div class="badge-container">
+            <div class="badge badge-main">IBM Internship Project — Group 4</div>
+            <div class="badge badge-sub">Lead Engineer: Nakul Yadav</div>
+            <div class="badge badge-tier">AWS Region: ap-south-1 (Mumbai)</div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-item">
+                <h3>🌐 Networking Tier</h3>
+                <p>Custom VPC (10.0.0.0/16), Public & Private Subnets, IGW, Route Tables & Stateful Firewalls.</p>
+            </div>
+            <div class="grid-item">
+                <h3>⚡ Compute Tier</h3>
+                <p>Amazon EC2 t3.micro with automated Nginx user-data bootstrapper & Static Elastic IP.</p>
+            </div>
+            <div class="grid-item">
+                <h3>🔒 Storage & Security</h3>
+                <p>Amazon S3 with AES-256 Encryption, Object Versioning & Public Access Block.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Modular HCL Architecture | 15 Managed AWS Resources | Zero Manual ClickOps
+        </div>
     </div>
 </body>
 </html>

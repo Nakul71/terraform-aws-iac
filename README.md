@@ -206,12 +206,6 @@ After `terraform apply`, you will see:
 
 ---
 
-## Author
-
-**Nakul Yadav** — Group 4 | IBM Internship 2026
-
----
-
 ## License
 
 [MIT](LICENSE)

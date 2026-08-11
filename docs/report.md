@@ -25,10 +25,9 @@ The project demonstrates proficiency in cloud infrastructure provisioning, netwo
 
 | | |
 |---|---|
-| **Internal Guide** | _________________________ |
-| **External Guide** | _________________________ |
-| **Head of Department** | _________________________ |
-| **Date** | _________________________ |
+| **Internal Guide** | Dr. Prateek Raj Gautam |
+| **External Guide** | Mr. Rehmat |
+| **Head of Department** | Dr. Neeraj Chugh|
 
 ---
 
